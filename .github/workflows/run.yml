@@ -7,8 +7,6 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    env:
-      MPLBACKEND: Agg
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
